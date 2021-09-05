@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Css start  */
+header .logo-div img {
+    width: 61px;
+}
+.header-bg{
+    background-color: #e3f2fd;
+    padding: 5px 0px;
+}
+.search-size {
+    width: 192px;
+}
+.first-nav{
+    margin-top: 3px;
+}
+.first-form{
+    margin-top: 13px;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #030303;
+    /* background: red;
+    background-color: red; */
+}
+/* Header Css End */
+
+/* header Bottom Start  */
+.first-bread{
+    background-color: #e9ecef;
+}
+.second-bread{
+    background-color: #e9ecef;
+}
+
+/* header Bottom End */
+
+/* bannar section Start  */
+.carou-img img {
+    height: 450px;
+}
+/* bannar section End */
+
+.accor-bg {
+    background: #f7f7f7;
+    font-size: 18px;
+}
+.under-coll:hover{
+    text-decoration: underline 2px;
+}
+.under-coll{
+    margin-bottom: 0;
+}
+.custom-close {
+    position: absolute;
+    right: 19px;
+    font-size: 15px;
+    top: 12px;
+}
+.accor-bg::after{
+    content: "";
+    display: none;
+}
+.accor-bg:focus{
+    border: none;
+    box-shadow: none;
+    z-index: 0;
+    outline: 0;
+}
+.tool-right {
+    margin-left: 111px;
+}
+
+li.li-pad {
+    padding: 8px 14px;
+}
+
+.dropdown-menu{
+    padding: 0;
+    padding-left: 0;
+}
+
+footer{
+    background: #17a2b8;
+}
+.scrollspy-example{
+    position: relative;
+    height: 160px;
+    overflow: auto;
+}

@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Class 20 Assignment</title>
+
+    <!-- Custom Css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-1">
+                    <div class="logo-div">
+                        <img src="./Image/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <nav class="navbar navbar-expand-lg navbar-light first-nav">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Porfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                                            My Resume
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+
+                <div class="col-xl-4">
+
+                    <div class="container-fluid">
+                        <form class="d-flex first-form">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Css  -->
+
+    <!-- Header Bottom Start  -->
+
+    <section class="header-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <nav aria-label="breadcrumb ">
+                        <ol class="breadcrumb first-bread mt-4">
+                            <li class="breadcrumb-item active p-3" aria-current="page">Home</li>
+                        </ol>
+                    </nav>
+
+                    <nav aria-label="breadcrumb ">
+                        <ol class="breadcrumb second-bread">
+                            <li class="breadcrumb-item  p-3 pe-0"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active  p-3" aria-current="page">Library</li>
+                        </ol>
+                    </nav>
+
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="toast show mt-4" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <strong class="me-auto">Bootstrap</strong>
+                            <small>11 mins ago</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            Hello, world! This is a toast message.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Header Bottom End -->
+
+    <!-- bannar section Start  -->
+    <Section class="bannar">
+
+        <div class="row">
+            <div class="col-xl-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active carou-img">
+                            <img src="Image/Bannar.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item carou-img">
+                            <img src="Image/Bannar.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </Section>
+
+
+    <!-- bannar section End -->
+
+    <!-- Alert Html Start  -->
+    <section class="alert-boot">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="alert alert-success mt-5" role="alert">
+                        <h4 class="alert-heading">Well done!</h4>
+                        You successfully read this important alert message.
+                        <button type="button" class="btn-close custom-close" data-bs-dismiss="alert"
+                            aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Alert Html End -->
+
+    <!-- Progress Secion Start  -->
+    <secion class="progress-section">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-xl-6">
+                    <div class="progress my-2">
+                        <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 12%"
+                            aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress my-2">
+                        <div class="progress-bar progress-bar-striped bg-secondary" role="progressbar"
+                            style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress my-2">
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 38%"
+                            aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress my-2">
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress my-2">
+                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 62%"
+                            aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress my-2">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 75%"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress my-2">
+                        <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 90%"
+                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-xl-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item border rounded-2">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed text-primary fw-bold accor-bg " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <p class="under-coll">collapsible group item #1</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border rounded-2">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed text-primary fw-bold accor-bg" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    <p class="under-coll">collapsible group item #2</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
+                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border rounded-2">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed text-primary fw-bold accor-bg" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <p class="under-coll">collapsible group item #3</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
+                                    accordion body. Nothing more exciting happening here in terms of content, but just
+                                    filling up the space to make it look, at least at first glance, a bit more
+                                    representative of how this would look in a real-world application.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </secion>
+
+    <!-- Progress Secion End -->
+
+    <!-- Tooltip Section Start  -->
+    <section class="tooltip-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Click here to learn more things
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos consectetur
+                                    explicabo nobis quod facilis provident eum aliquam? Modi saepe fugiat quia iure
+                                    adipisci asperiores perspiciatis, facere ea rem voluptate nostrum fugit odio
+                                    doloremque ratione, distinctio quo. Consequatur qui similique ex beatae, enim fugit
+                                    provident? Dolorum necessitatibus eligendi suscipit quibusdam.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-xl-8">
+                    <div class="tool-right">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Tooltip on top">
+                            Tooltip on top
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                            data-bs-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Tooltip on bottom">
+                            Tooltip on bottom
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                            data-bs-placement="left" title="Tooltip on left">
+                            Tooltip on left
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Tooltip Section End -->
+
+    <!-- Scrollscype Start  -->
+    <section class="scroll-section mb-3">
+        <div class="container">
+            <div class="row mt-5 ">
+                <div class="col-xl-12">
+                    
+                    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                        <a class="navbar-brand" href="#">Project Name</a>
+                        <ul class="nav nav-pills">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading1">Verse 1</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2">Verse 2</a>
+                          </li>
+                        </ul>
+                      </nav>
+                      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h4 id="scrollspyHeading1">Verse 1</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur veniam voluptatem vel vero, voluptas illo perspiciatis doloribus dicta? Eaque ratione dicta iste culpa, vel quae necessitatibus autem a reprehenderit nihil ipsa officiis quidem dolorem ducimus est rerum error porro neque! <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellat mollitia aliquid officia pariatur quidem cupiditate aliquam suscipit accusantium ut.
+                        </p>
+                        <h4 id="scrollspyHeading2">Verse 2</h4>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur veniam voluptatem vel vero, voluptas illo perspiciatis doloribus dicta? Eaque ratione dicta iste culpa, vel quae necessitatibus autem a reprehenderit nihil ipsa officiis quidem dolorem ducimus est rerum error porro neque! <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellat mollitia aliquid officia pariatur quidem cupiditate aliquam suscipit accusantium ut.</p>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Scrollscype End -->
+
+    <section class="footer-up">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-xl-4 offset-4">
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xl-4">
+
+                    <div class="btn-group">
+                        <button class="btn btn-secondary btn-lg" type="button">
+                            Dropdown
+                        </button>
+                        <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="li-pad">Action</li>
+                            <li class="li-pad">Another Action</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="py-3 mt-3">
+        <h6 class="text-center text-light">&copy Al rights reserved design by LFWF</h6>
+    </footer>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
